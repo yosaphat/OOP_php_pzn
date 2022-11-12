@@ -7,4 +7,4 @@ $person = new person();
 $person->name = "yosa";
 $person->address = "kediri";
 
-var_dump($person);
+var_dump($person); 

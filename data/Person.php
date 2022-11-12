@@ -19,8 +19,6 @@ class person
         }else{
             echo "Hi $name, my name is $this->name" . PHP_EOL;
         }
-    }   
-
-
+    } 
 
 }
