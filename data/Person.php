@@ -3,10 +3,13 @@
 class person
 
 {
+    const AUTHOR = "EXPOST";
 
     var string $name;
     var ?string $address = null; // arti ? adalah membolehkan nilainya null/kosong
     var string $country = "Indonesia";  //kalau nilai country kosong akan default Indonesia
+
+    //didalam block class dinamakan properties, properties  akan diakses oleh object
 
 
     function sayHello(?string $name)
