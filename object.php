@@ -2,6 +2,6 @@
 
 require_once "data/person.php";
 
-$person = new Person();
+$person = new Person("yosa", "kediri");
 
 var_dump($person);   
