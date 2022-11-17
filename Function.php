@@ -11,4 +11,4 @@ $ann = new Person("wahyu", "bali"); //Person ini adalah nama class
 $ann->name = "satya";
 $ann->sayHello(null);
 
-$ann->info();
+$ann->info(); //menampilkan hasil
