@@ -6,12 +6,24 @@ class Manager
 
     var string $title;
 
+    public function __construct(string $name ="", string $title ="Manager")
+    {
+        $this->name = $name;
+        $this->title = $title;
+    }
+
     function sayHello(string $name):void{
         echo "HI $name, my name is Manager $this->name" . PHP_EOL;
     }
 }
 
 class VicePresident extends Manager{
+
+    public function __construct(string $name = "")
+    {
+        //tidak wajib, tapi direkomendasikan
+        parent::__construct($name,"VIP");
+    }
 
 
     function sayHello(string $name):void{
